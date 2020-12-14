@@ -253,16 +253,27 @@ C:\Users\Administrator\Desktop\migration>one-click-massive-migration.py
 ```
 执行结果如下：
 ```
+C:\Users\Administrator\Desktop\migration>python one-click-massive-migration.py
+
 Ready for migration 3 Servers from your source environment totally...
+
 launthing thread...
 Import the source servers information, Finished
+start the multi thread migration service...
 launthing thread...
 launthing thread...
 Import the source servers information, Finished
 start the multi thread migration service...
+
 Import the source servers information, Finished
 start the multi thread migration service...
-start the multi thread migration service...
+
+
+{'vCPU-:-MEM(GB)': '2-:-4', 'Type': 't2.medium'}
+{'vCPU-:-MEM(GB)': '2-:-4', 'Type': 't3.medium'}
+{'vCPU-:-MEM(GB)': '2-:-4', 'Type': 't3a.medium'}
+{'vCPU-:-MEM(GB)': '2-:-4', 'Type': 'c5.large'}
+{'vCPU-:-MEM(GB)': '2-:-4', 'Type': 'c5d.large'}
 {'vCPU-:-MEM(GB)': '2-:-8', 'Type': 't2.large'}
 {'vCPU-:-MEM(GB)': '2-:-8', 'Type': 't3.large'}
 {'vCPU-:-MEM(GB)': '2-:-8', 'Type': 't3a.large'}
@@ -270,123 +281,76 @@ start the multi thread migration service...
 {'vCPU-:-MEM(GB)': '2-:-8', 'Type': 'm5.large'}
 {'vCPU-:-MEM(GB)': '2-:-8', 'Type': 'm5a.large'}
 {'vCPU-:-MEM(GB)': '2-:-8', 'Type': 'm5d.large'}
+r5 /tmp/temp_CE/b >> /tmp/temp_CE/c
+m5 /tmp/temp_CE/b >> /tmp/temp_CE/c
+c5 /tmp/temp_CE/b >> /tmp/temp_CE/c
+r5 /tmp/temp_CE/b >> /tmp/temp_CE/c
+m5 /tmp/temp_CE/b >> /tmp/temp_CE/c
+c5 /tmp/temp_CE/b >> /tmp/temp_CE/c
 {'vCPU-:-MEM(GB)': '1-:-1', 'Type': 't2.micro'}
-r5 /tmp/temp_CE/b >> /tmp/temp_CE/c
-m5 /tmp/temp_CE/b >> /tmp/temp_CE/c
-c5 /tmp/temp_CE/b >> /tmp/temp_CE/c
-r5 /tmp/temp_CE/b >> /tmp/temp_CE/c
-m5 /tmp/temp_CE/b >> /tmp/temp_CE/c
-c5 /tmp/temp_CE/b >> /tmp/temp_CE/c
-{'vCPU-:-MEM(GB)': '2-:-4', 'Type': 't2.medium'}
-{'vCPU-:-MEM(GB)': '2-:-4', 'Type': 't3.medium'}
-{'vCPU-:-MEM(GB)': '2-:-4', 'Type': 't3a.medium'}
-{'vCPU-:-MEM(GB)': '2-:-4', 'Type': 'c5.large'}
-{'vCPU-:-MEM(GB)': '2-:-4', 'Type': 'c5d.large'}
 r5 /tmp/temp_CE/b >> /tmp/temp_CE/c
 m5 /tmp/temp_CE/b >> /tmp/temp_CE/c
 c5 /tmp/temp_CE/b >> /tmp/temp_CE/c
 Connecting to CloudEndure Console... Finished.
 Identifying disks for replication.
+Disk to replicate identified: /dev/nvme0n1 of size 8.0 GiB
+Connecting to CloudEndure Console... Finished.
+All disks for replication were successfully identified.
+Downloading CloudEndure Agent... Identifying disks for replication.
 Disk to replicate identified: /dev/nvme0n1 of size 8.0 GiB
 All disks for replication were successfully identified.
 Downloading CloudEndure Agent... Connecting to CloudEndure Console... Finished.
 Identifying disks for replication.
 Disk to replicate identified: /dev/xvda of size 8.0 GiB
-Connecting to CloudEndure Console... Finished.
-Identifying disks for replication.
-Disk to replicate identified: /dev/nvme0n1 of size 8.0 GiB
 All disks for replication were successfully identified.
-Downloading CloudEndure Agent... All disks for replication were successfully identified.
 Downloading CloudEndure Agent... Finished.
 Installing CloudEndure Agent... Finished.
 Installing CloudEndure Agent... Finished.
 Installing CloudEndure Agent... Finished.
 Adding the Source machine to CloudEndure Console... Finished.
-Instance ID: i-0aa18f3f3dc0aaf79.
+Finished.
+Adding the Source machine to CloudEndure Console... Finished.
+Instance ID: i-00be5cde391d70b9d.
+Installation finished successfully.
+The installation of the CloudEndure Agent has started.
+Running the Agent Installer for a 64 bit system...
+Instance ID: i-04b9ed09537c87a15.
 Installation finished successfully.
 The installation of the CloudEndure Agent has started.
 Running the Agent Installer for a 64 bit system...
 Finished.
 Adding the Source machine to CloudEndure Console... Finished.
-Instance ID: i-06260fb3e8132518d.
+Instance ID: i-0ab08ea0081a58c12.
 Installation finished successfully.
 The installation of the CloudEndure Agent has started.
 Running the Agent Installer for a 64 bit system...
-Finished.
-Adding the Source machine to CloudEndure Console... Finished.
-Instance ID: i-016930a53c3c22077.
-Installation finished successfully.
-The installation of the CloudEndure Agent has started.
-Running the Agent Installer for a 64 bit system...
-c5.large
-Fetching the installation token...
-Getting machine id...
-Waiting for Replication to complete
-Replicated 0 MB out of 8192 MB bytes
-Will check again in 1 minutes. Waiting...
-Replicated 916 MB out of 8192 MB bytes
-Will check again in 1 minutes. Waiting...
-Replicated 1591 MB out of 8192 MB bytes
-Will check again in 1 minutes. Waiting...
-Replicated 2269 MB out of 8192 MB bytes
-Will check again in 1 minutes. Waiting...
-Replicated 2269 MB out of 8192 MB bytes
-Will check again in 1 minutes. Waiting...
-Replicated 3003 MB out of 8192 MB bytes
-Will check again in 1 minutes. Waiting...
-Replicated 3687 MB out of 8192 MB bytes
-Will check again in 1 minutes. Waiting...
-Replicated 4360 MB out of 8192 MB bytes
-Will check again in 1 minutes. Waiting...
-Replicated 5069 MB out of 8192 MB bytes
-Will check again in 1 minutes. Waiting...
-Replicated 5775 MB out of 8192 MB bytes
-Will check again in 1 minutes. Waiting...
-Replicated 6463 MB out of 8192 MB bytes
-Will check again in 1 minutes. Waiting...
-Replicated 7917 MB out of 8192 MB bytes
-Will check again in 1 minutes. Waiting...
-Replication completed. Target machine is launchable!
-Setting blueprint...
-Blueprint was set successfully
-Launching target server
-Waiting for job to finish...
-Job started
-Started waiting for latest snapshot
-Finished waiting for latest snapshot
-Started machine conversions
-Finished machine conversions
-Failed creating a replica for VPC Default: The maximum number of VPCs has been reached.
-Job finished
-Target server creation completed!
 t2.micro
 Fetching the installation token...
 Getting machine id...
 Waiting for Replication to complete
 Replication has not started. Waiting...
+Replication has not started. Waiting...
 Replicated 0 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 872 MB out of 8192 MB bytes
+Replicated 874 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 872 MB out of 8192 MB bytes
+Replicated 1537 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 1582 MB out of 8192 MB bytes
+Replicated 2238 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 2295 MB out of 8192 MB bytes
+Replicated 2960 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 3004 MB out of 8192 MB bytes
+Replicated 3694 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 3729 MB out of 8192 MB bytes
+Replicated 4494 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 4432 MB out of 8192 MB bytes
+Replicated 5201 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 5147 MB out of 8192 MB bytes
+Replicated 5919 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 5844 MB out of 8192 MB bytes
+Replicated 6571 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 6564 MB out of 8192 MB bytes
-Will check again in 1 minutes. Waiting...
-Replicated 7288 MB out of 8192 MB bytes
+Replicated 7235 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
 Replication completed. Target machine is launchable!
 Setting blueprint...
@@ -398,35 +362,81 @@ Started waiting for latest snapshot
 Finished waiting for latest snapshot
 Started machine conversions
 Finished machine conversions
-Failed creating a replica for VPC Default: The maximum number of VPCs has been reached.
+Started creating a replica for instance ip-172-31-43-5.cn-north-1.compute.internal
+Finished creating a replica for instance ip-172-31-43-5.cn-north-1.compute.internal
 Job finished
 Target server creation completed!
-t2.large
+c5.large
+Fetching the installation token...
+Getting machine id...
+Waiting for Replication to complete
+Replication has not started. Waiting...
+Replication has not started. Waiting...
+Replication has not started. Waiting...
+Replicated 0 MB out of 8192 MB bytes
+Will check again in 1 minutes. Waiting...
+Replicated 882 MB out of 8192 MB bytes
+Will check again in 1 minutes. Waiting...
+Replicated 1527 MB out of 8192 MB bytes
+Will check again in 1 minutes. Waiting...
+Replicated 2238 MB out of 8192 MB bytes
+Will check again in 1 minutes. Waiting...
+Replicated 2909 MB out of 8192 MB bytes
+Will check again in 1 minutes. Waiting...
+Replicated 3600 MB out of 8192 MB bytes
+Will check again in 1 minutes. Waiting...
+Replicated 4275 MB out of 8192 MB bytes
+Will check again in 1 minutes. Waiting...
+Replicated 4994 MB out of 8192 MB bytes
+Will check again in 1 minutes. Waiting...
+Replicated 5682 MB out of 8192 MB bytes
+Will check again in 1 minutes. Waiting...
+Replicated 6416 MB out of 8192 MB bytes
+Will check again in 1 minutes. Waiting...
+Replicated 7098 MB out of 8192 MB bytes
+Will check again in 1 minutes. Waiting...
+Replication completed. Target machine is launchable!
+Setting blueprint...
+Blueprint was set successfully
+Launching target server
+Waiting for job to finish...
+Job started
+Started waiting for latest snapshot
+Finished waiting for latest snapshot
+Started machine conversions
+Finished machine conversions
+Started creating a replica for instance ip-172-31-34-44.cn-north-1.compute.internal
+Finished creating a replica for instance ip-172-31-34-44.cn-north-1.compute.internal
+Job finished
+Target server creation completed!
+m5.large
 Fetching the installation token...
 Getting machine id...
 Waiting for Replication to complete
 Replication has not started. Waiting...
 Replicated 0 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 862 MB out of 8192 MB bytes
+Replicated 925 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 1537 MB out of 8192 MB bytes
+Replicated 1601 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 2274 MB out of 8192 MB bytes
+Replicated 2281 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 2972 MB out of 8192 MB bytes
+Replicated 2998 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 3661 MB out of 8192 MB bytes
+Replicated 3680 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 4364 MB out of 8192 MB bytes
+Replicated 4359 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 5062 MB out of 8192 MB bytes
+Replicated 5029 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 5737 MB out of 8192 MB bytes
+Replicated 5656 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 6403 MB out of 8192 MB bytes
+Replicated 6292 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
-Replicated 7103 MB out of 8192 MB bytes
+Replicated 6961 MB out of 8192 MB bytes
+Will check again in 1 minutes. Waiting...
+Replicated 7623 MB out of 8192 MB bytes
 Will check again in 1 minutes. Waiting...
 Replication completed. Target machine is launchable!
 Setting blueprint...
@@ -435,11 +445,13 @@ Launching target server
 Waiting for job to finish...
 Job started
 Started waiting for latest snapshot
-The latest state of the machine i-06260fb3e8132518d could not have been fetched. Creating replica that is up-to-date to 2020-12-14 16:20:14.783843UTC instead.
 Finished waiting for latest snapshot
 Started machine conversions
 Finished machine conversions
-Failed creating a replica for VPC Default: The maximum number of VPCs has been reached.
+Started creating a replica for instance ip-172-31-36-101.cn-north-1.compute.internal
+Finished creating a replica for instance ip-172-31-36-101.cn-north-1.compute.internal
 Job finished
 Target server creation completed!
+
+C:\Users\Administrator\Desktop\migration>
 ```  
