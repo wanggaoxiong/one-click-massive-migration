@@ -11,7 +11,7 @@
     cat $1 | while read line
     do
         echo "$line $2 >> $3"
-        grep "$line" $2 > $3
+        grep "$line" $2 >> $3
     done
     if [ ! -s $3 ];
     then
