@@ -179,7 +179,7 @@ six==1.15.0
   执行批量迁移前，提前检查好相关环境，避免出现agent安装不上，ENA以及Nvme驱动安装，甚至防火墙阻止agent与CloudEndure Manager Service通信等问题。  
   源服务器的操作系统内核与内核开发包版本要求匹配，如果不一致，请提前下载好匹配的内核开发包版本文件，放在同一目录下，通过修改“one-click-massive-migration.py”脚本，增加conn.put（'',''）来实现批量文件推送，通过conn.run('command action')执行自动远程批量安装操作。需要安装其他文件，操作类似。  
   脚本文件内容如下：  
-  ```
+```
 # coding: utf-8
 import csv
 import sys
@@ -245,7 +245,7 @@ for server in source_servers:
     server.start()
 for server in source_servers:
     server.join()
-  ```
+```
 - 开始迁移  
 只需要打开CMD命令界面，输入一键迁移python脚本名称或执行“python 脚本文件名”即可。
 ```
