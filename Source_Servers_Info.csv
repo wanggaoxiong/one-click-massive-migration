@@ -1,0 +1,4 @@
+Login_IP,Login_Port,User_Name,Password,Key_Path
+68.79.47.78,22,ec2-user,,C:/Users/Administrator/Downloads/migration-test/adm-zhy.pem
+68.79.55.149,22,ubuntu,jiaojiao521,C:/Users/Administrator/Downloads/migration-test/adm-zhy.pem
+161.189.62.210,,centos,,C:/Users/Administrator/Downloads/migration-test/adm-zhy.pem
