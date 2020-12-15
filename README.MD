@@ -108,7 +108,7 @@ pip 20.2.3 from c:\users\administrator\appdata\local\programs\python\python39\li
     WARNING: You are using pip version 20.2.3; however, version 20.3.1 is available.
     You should consider upgrading via the 'c:\users\administrator\appdata\local\programs\python\python39\python.exe -m pip install --upgrade pip' command.
     </code></pre>
-      <summary>**安装fabric模块**</summary>
+      <summary>安装fabric模块:</summary>
   </details>
 
     默认安装了如下包：
@@ -182,7 +182,7 @@ pip 20.2.3 from c:\users\administrator\appdata\local\programs\python\python39\li
     - 环境检查  
       执行批量迁移前，提前检查好相关环境，避免出现agent安装不上，ENA以及Nvme驱动安装，甚至防火墙阻止agent与CloudEndure Manager Service通信等问题。  
       源服务器的操作系统内核与内核开发包版本要求匹配，如果不一致，请提前下载好匹配的内核开发包版本文件，放在同一目录下，通过修改“one-click-massive-migration.py”脚本，增加conn.put（'',''）来实现批量文件推送，通过conn.run('command action')执行自动远程批量安装操作。需要安装其他文件，操作类似。  
-      脚本文件内容如下：  
+    脚本文件内容如下：  
     <details>
     <pre><code>
     # coding: utf-8
@@ -251,15 +251,16 @@ pip 20.2.3 from c:\users\administrator\appdata\local\programs\python\python39\li
     for server in source_servers:
         server.join()
     </code></pre>
-    <summary>**one-click-massive-migration.py详细脚本如下：**</summary>
+    <summary>详细脚本Code：</summary>
     </details>
-    - 开始迁移  
+  - 开始迁移  
     只需要打开CMD命令界面，输入一键迁移python脚本名称或执行“python 脚本文件名”即可。
     ```
     C:\Users\Administrator\Desktop\migration>one-click-massive-migration.py
     ```
     <details>
     <pre><code>
+    
     C:\Users\Administrator\Desktop\migration>python one-click-massive-migration.py
 
     Ready for migration 3 Servers from your source environment totally...
@@ -274,7 +275,6 @@ pip 20.2.3 from c:\users\administrator\appdata\local\programs\python\python39\li
 
     Import the source servers information, Finished
     start the multi thread migration service...
-
 
     {'vCPU-:-MEM(GB)': '2-:-4', 'Type': 't2.medium'}
     {'vCPU-:-MEM(GB)': '2-:-4', 'Type': 't3.medium'}
