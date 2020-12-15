@@ -126,12 +126,12 @@ pip 20.2.3 from c:\users\administrator\appdata\local\programs\python\python39\li
     six==1.15.0
     ```
 2. 下载源码
-    - 直接通过git clone或从GitHub网站下载所有源码到本地任意目录，建议放在英文目录下。  
-    下载地址：https://github.com/wanggaoxiong/nwcd/
+- 直接通过git clone或从GitHub网站下载所有源码到本地任意目录，建议放在英文目录下。  
+  下载地址：https://github.com/wanggaoxiong/nwcd/
 
 
 3. 完善CloudEndure帐号信息
-    - 在下载下来的源码中找到名为“Cloudendure_Account_Info.csv”的csv文件，输入前面注册的CloudEndure帐号信息，以及建立的（迁移）项目名称，保持退出。注意，不要修改csv文件名。
+- 在下载下来的源码中找到名为“Cloudendure_Account_Info.csv”的csv文件，输入前面注册的CloudEndure帐号信息，以及建立的（迁移）项目名称，保持退出。注意，不要修改csv文件名。
     <table>
         <tr>
             <td><center>CE_User_Name</td>
@@ -144,8 +144,8 @@ pip 20.2.3 from c:\users\administrator\appdata\local\programs\python\python39\li
            <td><center><font color=gray size=2>输入创建的Cloudendure迁移项目名称</td>
       </tr>
     </table>
-    4. 完善待迁移源服务器信息
-    - 在下载下来的源码中刚找到名为“Source_Servers_Info.csv”的表格，在其中输入所有待迁移的服务器相关信息。服务器如果是采用密码方式登录，则输入密码。如果是秘钥方式（如pem格式的key文件等），请输入秘钥文件所在的目录（可被访问的路径）。  
+4. 完善待迁移源服务器信息
+- 在下载下来的源码中刚找到名为“Source_Servers_Info.csv”的表格，在其中输入所有待迁移的服务器相关信息。服务器如果是采用密码方式登录，则输入密码。如果是秘钥方式（如pem格式的key文件等），请输入秘钥文件所在的目录（可被访问的路径）。  
     请参考下表格式填写：
     <table>
         <tr>
@@ -179,10 +179,10 @@ pip 20.2.3 from c:\users\administrator\appdata\local\programs\python\python39\li
     </table>
 5. 批量迁移
 
-    - 环境检查  
-      执行批量迁移前，提前检查好相关环境，避免出现agent安装不上，ENA以及Nvme驱动安装，甚至防火墙阻止agent与CloudEndure Manager Service通信等问题。  
-      源服务器的操作系统内核与内核开发包版本要求匹配，如果不一致，请提前下载好匹配的内核开发包版本文件，放在同一目录下，通过修改“one-click-massive-migration.py”脚本，增加conn.put（'',''）来实现批量文件推送，通过conn.run('command action')执行自动远程批量安装操作。需要安装其他文件，操作类似。  
-    脚本文件内容如下：  
+- 环境检查  
+  执行批量迁移前，提前检查好相关环境，避免出现agent安装不上，ENA以及Nvme驱动安装，甚至防火墙阻止agent与CloudEndure Manager Service通信等问题。  
+  源服务器的操作系统内核与内核开发包版本要求匹配，如果不一致，请提前下载好匹配的内核开发包版本文件，放在同一目录下，通过修改“one-click-massive-migration.py”脚本，增加conn.put（'',''）来实现批量文件推送，通过conn.run('command action')执行自动远程批量安装操作。需要安装其他文件，操作类似。  
+  脚本文件内容如下：  
     <details>
     <pre><code>
     # coding: utf-8
