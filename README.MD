@@ -75,41 +75,41 @@ pip 20.2.3 from c:\users\administrator\appdata\local\programs\python\python39\li
 - 安装fabric
 
   通过pip安装fabric模块，用于远程连接各个源端服务器并将相关脚本推送到源端，并在源端执行相关脚本。
-<details>
-<pre><code>
-C:\Users\Administrator>pip install fabric
-Collecting fabric
-  Downloading fabric-2.5.0-py2.py3-none-any.whl (51 kB)
-     |████████████████████████████████| 51 kB 145 kB/s
-Collecting paramiko>=2.4
-  Downloading paramiko-2.7.2-py2.py3-none-any.whl (206 kB)
-     |████████████████████████████████| 206 kB 547 kB/s
-Collecting invoke<2.0,>=1.3
-  Downloading invoke-1.4.1-py3-none-any.whl (210 kB)
-     |████████████████████████████████| 210 kB 2.2 MB/s
-Collecting pynacl>=1.0.1
-  Downloading PyNaCl-1.4.0-cp35-abi3-win_amd64.whl (206 kB)
-     |████████████████████████████████| 206 kB 3.3 MB/s
-Collecting bcrypt>=3.1.3
-  Downloading bcrypt-3.2.0-cp36-abi3-win_amd64.whl (28 kB)
-Collecting cryptography>=2.5
-  Downloading cryptography-3.3.1-cp36-abi3-win_amd64.whl (1.5 MB)
-     |████████████████████████████████| 1.5 MB 3.3 MB/s
-Collecting cffi>=1.4.1
-  Downloading cffi-1.14.4-cp39-cp39-win_amd64.whl (179 kB)
-     |████████████████████████████████| 179 kB 6.4 MB/s
-Collecting six
-  Downloading six-1.15.0-py2.py3-none-any.whl (10 kB)
-Collecting pycparser
-  Downloading pycparser-2.20-py2.py3-none-any.whl (112 kB)
-     |████████████████████████████████| 112 kB 3.3 MB/s
-Installing collected packages: pycparser, cffi, six, pynacl, bcrypt, cryptography, paramiko, invoke, fabric
-Successfully installed bcrypt-3.2.0 cffi-1.14.4 cryptography-3.3.1 fabric-2.5.0 invoke-1.4.1 paramiko-2.7.2 pycparser-2.20 pynacl-1.4.0 six-1.15.0
-WARNING: You are using pip version 20.2.3; however, version 20.3.1 is available.
-You should consider upgrading via the 'c:\users\administrator\appdata\local\programs\python\python39\python.exe -m pip install --upgrade pip' command.
-</code></pre>
-  <summary>通过pip安装fabric模块</summary>
-</details>
+  <details>
+    <pre><code>
+    C:\Users\Administrator>pip install fabric
+    Collecting fabric
+      Downloading fabric-2.5.0-py2.py3-none-any.whl (51 kB)
+         |████████████████████████████████| 51 kB 145 kB/s
+    Collecting paramiko>=2.4
+      Downloading paramiko-2.7.2-py2.py3-none-any.whl (206 kB)
+         |████████████████████████████████| 206 kB 547 kB/s
+    Collecting invoke<2.0,>=1.3
+      Downloading invoke-1.4.1-py3-none-any.whl (210 kB)
+         |████████████████████████████████| 210 kB 2.2 MB/s
+    Collecting pynacl>=1.0.1
+      Downloading PyNaCl-1.4.0-cp35-abi3-win_amd64.whl (206 kB)
+         |████████████████████████████████| 206 kB 3.3 MB/s
+    Collecting bcrypt>=3.1.3
+      Downloading bcrypt-3.2.0-cp36-abi3-win_amd64.whl (28 kB)
+    Collecting cryptography>=2.5
+      Downloading cryptography-3.3.1-cp36-abi3-win_amd64.whl (1.5 MB)
+         |████████████████████████████████| 1.5 MB 3.3 MB/s
+    Collecting cffi>=1.4.1
+      Downloading cffi-1.14.4-cp39-cp39-win_amd64.whl (179 kB)
+         |████████████████████████████████| 179 kB 6.4 MB/s
+    Collecting six
+      Downloading six-1.15.0-py2.py3-none-any.whl (10 kB)
+    Collecting pycparser
+      Downloading pycparser-2.20-py2.py3-none-any.whl (112 kB)
+         |████████████████████████████████| 112 kB 3.3 MB/s
+    Installing collected packages: pycparser, cffi, six, pynacl, bcrypt, cryptography, paramiko, invoke, fabric
+    Successfully installed bcrypt-3.2.0 cffi-1.14.4 cryptography-3.3.1 fabric-2.5.0 invoke-1.4.1 paramiko-2.7.2 pycparser-2.20 pynacl-1.4.0 six-1.15.0
+    WARNING: You are using pip version 20.2.3; however, version 20.3.1 is available.
+    You should consider upgrading via the 'c:\users\administrator\appdata\local\programs\python\python39\python.exe -m pip install --upgrade pip' command.
+    </code></pre>
+      <summary>通过pip安装fabric模块</summary>
+  </details>
 
 默认安装了如下包：
 ```
