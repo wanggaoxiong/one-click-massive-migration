@@ -44,7 +44,7 @@
    <tr>
        <td rowspan="4"><center>批量迁移</td>
        <td><center><font color=gray size=2>下载源码</td>
-       <td><center><font color=gray size=2>直接通过git clone或从GitHub网站下载所有源码到本地任意目录，建议放在英文目录下。https://github.com/wanggaoxiong/nwcd/</td>
+       <td><center><font color=gray size=2>直接通过git clone或从GitHub网站下载所有源码到本地任意目录，建议放在英文目录下。https://github.com/wanggaoxiong/one-click-massive-migration/</td>
   </tr>
   <tr>
        <td><font color=gray size=2>输入Cloudendure帐号信息</td>
