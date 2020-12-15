@@ -2,7 +2,7 @@
 
 # =================================================================================================
 # 
-# CloudEndure API full documentation can be found here - https://console.cloudendure.com/api_doc/apis.html#
+# CloudEndure API full documentation can be found here - https://console.awscloudendure.cn/api_doc/apis.html#
 #
 # usage: CloudEndure_One_Click_Migration.py -u USERNAME -p PASSWORD -n HOSTNAME -j PROJECT_NAME
 # 
