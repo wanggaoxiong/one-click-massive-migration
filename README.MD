@@ -75,6 +75,7 @@ pip 20.2.3 from c:\users\administrator\appdata\local\programs\python\python39\li
 - 安装fabric
 
   通过pip安装fabric模块，用于远程连接各个源端服务器并将相关脚本推送到源端，并在源端执行相关脚本。
+<details>
 ```
 C:\Users\Administrator>pip install fabric
 Collecting fabric
@@ -107,6 +108,8 @@ Successfully installed bcrypt-3.2.0 cffi-1.14.4 cryptography-3.3.1 fabric-2.5.0 
 WARNING: You are using pip version 20.2.3; however, version 20.3.1 is available.
 You should consider upgrading via the 'c:\users\administrator\appdata\local\programs\python\python39\python.exe -m pip install --upgrade pip' command.
 ```
+  <summary>通过pip安装fabric模块</summary>
+</details>
 默认安装了如下包：
 ```
 C:\Users\Administrator>pip freeze >requirements.txt
