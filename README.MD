@@ -125,12 +125,12 @@
     PyNaCl==1.4.0
     six==1.15.0
     ```
-2. 下载源码
+2. 下载源码  
   直接通过git clone或从GitHub网站下载所有源码到本地任意目录，建议放在英文目录下。  
   下载地址：https://github.com/wanggaoxiong/nwcd/
 
 
-3. 完善CloudEndure帐号信息
+3. 完善CloudEndure帐号信息  
   在下载下来的源码中找到名为“Cloudendure_Account_Info.csv”的csv文件，输入前面注册的CloudEndure帐号信息，以及建立的（迁移）项目名称，保持退出。注意，不要修改csv文件名。
     <table>
         <tr>
@@ -144,7 +144,7 @@
            <td><center><font color=gray size=2>输入创建的Cloudendure迁移项目名称</td>
       </tr>
     </table>
-4. 完善待迁移源服务器信息
+4. 完善待迁移源服务器信息  
   在下载下来的源码中刚找到名为“Source_Servers_Info.csv”的表格，在其中输入所有待迁移的服务器相关信息。服务器如果是采用密码方式登录，则输入密码。如果是秘钥方式（如pem格式的key文件等），请输入秘钥文件所在的目录（可被访问的路径）。  
     请参考下表格式填写：
     <table>
