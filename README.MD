@@ -251,7 +251,7 @@
     for server in source_servers:
         server.join()
     </code></pre>
-    <summary>one-click-massive-migration.py</summary>
+    <summary>one-click-massive-migration.py:</summary>
     </details>
     <details>
     <pre><code>
