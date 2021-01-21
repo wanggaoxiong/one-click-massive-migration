@@ -251,7 +251,7 @@
     for server in source_servers:
         server.join()
     </code></pre>
-    <summary>one-click-massive-migration.py:</summary>
+    <summary>"one-click-massive-migration.py" :</summary>
     </details>
     <details>
     <pre><code>
@@ -646,7 +646,7 @@
     if __name__ == '__main__':
         main()
     </code></pre>
-    <summary>CloudEndure.py：</summary>
+    <summary>"CloudEndure.py" ：</summary>
     </details>
 - 开始迁移  
   只需要打开CMD命令界面，输入一键迁移python脚本名称或执行“python 脚本文件名”即可。如下展示一次性迁移3台服务器为例，执行one-click-massive-migration.py脚本。
