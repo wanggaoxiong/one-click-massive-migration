@@ -31,7 +31,7 @@
    </tr>
    <tr>
         <td><font color=gray size=2>注册AWS帐号</td>   
-        <td><font color=gray size=2>创建用户，授予操作EC2、VPC等相关Role，并获取AKS</td>  
+        <td><font color=gray size=2>创建用户，授予操作EC2、VPC等相关Role，并获取AKSK</td>  
    </tr>
    <tr>
         <td><font color=gray size=2>注册Cloudendure帐号</td>
